@@ -2,6 +2,7 @@
 
 namespace Xethron\MigrationsGenerator;
 
+use Illuminate\Support\Str;
 use Way\Generators\Commands\GeneratorCommand;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputArgument;
@@ -326,7 +327,7 @@ class MigrateGenerateCommand extends GeneratorCommand {
 		}
 
 		return [
-			'CLASS' => ucwords(camel_case($this->migrationName)),
+			'CLASS' => ucwords(Str::camel($this->migrationName)),
 			'UP'    => $up,
 			'DOWN'  => $down
 		];
