@@ -1,4 +1,6 @@
-<?php namespace Xethron\MigrationsGenerator\Syntax;
+<?php 
+
+namespace Xethron\MigrationsGenerator\Syntax;
 
 /**
  * Class AddForeignKeysToTable

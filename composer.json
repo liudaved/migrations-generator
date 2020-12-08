@@ -11,8 +11,8 @@
 	],
 	"require": {
 		"php": ">=7.2.0",
-		"illuminate/support": ">=5.0",
-		"xethron/laravel-4-generators": "~4.0.0",
+		"illuminate/support": "~6.0",
+		"liudaved/laravel-4-generators": "~4.0.0",
 		"doctrine/dbal": "~2.4"
 	},
 	"autoload": {

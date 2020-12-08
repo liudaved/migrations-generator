@@ -1,4 +1,6 @@
-<?php namespace Xethron\MigrationsGenerator;
+<?php 
+
+namespace Xethron\MigrationsGenerator;
 
 use Way\Generators\Commands\GeneratorCommand;
 use Symfony\Component\Console\Input\InputOption;

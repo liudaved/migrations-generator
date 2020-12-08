@@ -1,4 +1,6 @@
-<?php namespace Xethron\MigrationsGenerator\Generators;
+<?php 
+
+namespace Xethron\MigrationsGenerator\Generators;
 
 use Illuminate\Support\Facades\DB;
 

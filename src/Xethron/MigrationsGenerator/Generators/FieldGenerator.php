@@ -1,6 +1,8 @@
-<?php namespace Xethron\MigrationsGenerator\Generators;
+<?php
 
-use DB;
+namespace Xethron\MigrationsGenerator\Generators;
+
+use Illuminate\Support\Facades\DB;
 
 class FieldGenerator {
 

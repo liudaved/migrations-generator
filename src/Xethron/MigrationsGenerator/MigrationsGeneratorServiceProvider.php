@@ -1,4 +1,6 @@
-<?php namespace Xethron\MigrationsGenerator;
+<?php 
+
+namespace Xethron\MigrationsGenerator;
 
 use Illuminate\Support\ServiceProvider;
 
